@@ -1,24 +1,18 @@
-# Stairs::Steps::Balanced
+# Stairs Balanced Plugin
 
-TODO: Write a gem description
+Stairs plugin for setting up Balanced Payments.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'stairs-steps-balanced'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install stairs-steps-balanced
+Install `stairs-steps-balanced` gem alongside `stairs`
 
 ## Usage
 
-TODO: Write usage instructions here
+In your stairs setup script:
+
+```ruby
+setup :balanced
+```
 
 ## Contributing
 
