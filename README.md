@@ -1,6 +1,6 @@
 # Stairs Balanced Plugin
 
-Stairs plugin for setting up Balanced Payments.
+[Stairs][stairs] plugin for setting up Balanced Payments.
 
 ## Installation
 
@@ -21,3 +21,5 @@ setup :balanced
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+[stairs]: http://github.com/patbenatar/stairs
