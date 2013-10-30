@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "stairs-steps-balanced"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["patbenatar"]
   spec.email         = ["nick@gophilosophie.com"]
   spec.description   = "Stairs plugin for setting up Balanced Payments"
@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
-  spec.add_dependency "stairs", "~> 0.2.0"
+  spec.add_dependency "stairs", "~> 0.3.0"
   spec.add_dependency "balanced", "~> 0.7.0"
 end
