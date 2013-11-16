@@ -10,11 +10,19 @@ module Stairs
       def run
         ::Balanced.configure(api_key.secret)
 
-        env "BALANCED_URI", marketplace.uri
-        env "BALANCED_KEY", api_key.secret
+        env marketplace_uri_name, marketplace.uri
+        env key_name, api_key.secret
       end
 
       private
+
+      def marketplace_uri_name
+        options[:marketplace_uri] || "BALANCED_URI"
+      end
+
+      def key_name
+        options[:key] || "BALANCED_KEY"
+      end
 
       def api_key
         @api_key ||= ::Balanced::ApiKey.new.save
